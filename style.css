@@ -1,5 +1,36 @@
+header{
+  text-align:center;
+}
+
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background: lightgray;
+}
+
+section#featured-property figure img{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+section#featured-property figure figcaption{
+  text-align: center;
+  font-size:small;
+}
+section#featured-property p{
+  width:800px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+section#details div{
+  float:left;
+  background:red;
+  text-align: center;
+  width:25%;
 }
